@@ -1,0 +1,58 @@
+html,
+body {
+
+  height: 100%;
+
+  padding: 0;
+}
+
+.saveNote, .newNote, .clearBtn {
+
+  display: none;
+}
+
+.icons {
+  margin-left: 12px;
+
+  margin-right: 12px;
+
+  font-size: 26px;
+
+  cursor: pointer;
+}
+
+.noteTextArea,
+.noteTitle {
+
+  color: #000000;
+
+  width: 100%;
+
+  border: none;
+}
+
+.noteTextArea {
+
+    padding-top: 16px;
+
+     resize: none;
+
+     height:  63px;
+
+}
+
+.noteTitle {
+
+    margin-top: 13px;
+
+  height: 55px;
+
+  font-size: 49px;
+
+}
+
+.noteTitle:read-only,
+.noteTextArea:read-only {
+
+  color: gray;
+}
